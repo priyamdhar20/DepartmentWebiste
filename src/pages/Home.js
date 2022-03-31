@@ -2,7 +2,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>this is the home page</div>
+    <div className="wrapper">
+      <h1>Department of Computer Science</h1>
+      <h3>The Bhawanipur Education Society</h3>
+    </div>
   )
 }
 
