@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+/* Images */
+.teacher-pic {
+  height: 100vh;
+  width: 60rem;
+}
+
+.student-pic {
+  height: 100vh;
+  width: 65rem;
+}
+
+.login-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.signup-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+
+.teacherSign {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.studentSign {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.teacher-details {
+  padding: 70px;
+}
+
+
+
+.student-details {
+  padding: 70px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 3fr 5.5fr;
+}
+
+.login-card {
+  margin-left: 5rem;
+  border-radius: 2rem;
+  height: 28rem;
+  width: 25rem;
+  background:linear-gradient(#e66465, #9198e5);;
+}
+.login-card .card-title {
+  font-size: 3.5rem;
+  font-weight:bold;
+  font-family: 'SF Pro Display',sans-serif;
+  color: #ffff;
+}
+
+.question-card {
+  margin-left: 5rem;
+  border-radius: 2rem;
+  height: 28rem;
+  width: 40rem;
+  background:linear-gradient(#e66465, #9198e5);
+}
+.question-card .card-title {
+  font-size: 5rem;
+  font-weight:bold;
+  font-family: 'SF Pro Display',sans-serif;
+  color: #ffff;
+}
